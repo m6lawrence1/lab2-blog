@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+       	<link rel="stylesheet" href="main.css" type="text/css"/>
+
+
+	<header>Contact Me</header>
+	<div class="col-md-2">
+	    <div class="nav">
+	      <ul>
+	        <li class="Home"><a href="index.html">Home</a></li>
+	        <li class="Contact Me"><a class="active" href="Contact Me.html">Contact Me</a></li>
+	      </ul>
+	    </div>
+	</div>
+   
+  </head>
+
+  <body>
+
+    	<body>
+		<div class="col-md-8">
+			<form id="form">
+			
+				<p class="name">
+					<input type="text" name="name" id="name" placeholder="John Doe" />
+					<label for="name">Name</label>
+				</p>
+			
+				<p class="email">
+					<input type="text" name="email" id="email" placeholder="mail@example.com" />
+					<label for="email">Email</label>
+				</p>
+
+				<p>
+				<select name="whatuwant" id="styledSelect" class="blueText">
+				  <option value="help!">I need help!</option>
+				  <option value="saywhat">Say what?</option>
+				  <option value="questions">Questions or concerns...</option>
+	
+				</select>
+				<label for="styledSelect">What you want from me!?</label>
+				</p>
+				
+		
+				<p class="text">
+					<textarea name="text" placeholder="Write your message here.." /></textarea>
+				</p>
+			
+				<p id="submit">
+					<input type="submit" value="Send" onclick="submit"/>
+				</p>
+			</form>
+		</div>
+
+
+		
+
+	</body>
+    
+        <script src="js/index.js"></script>
+    
+  </body>
+</html>
